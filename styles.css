@@ -1,14 +1,50 @@
-h1 {
-  color: red;
-}
-img {
-  width: 400px;
-  margin-right: 500px;
-  margin-left: 500px;
+header {
+  padding: auto;
 }
 
-header {
-  background-color: red;
+.page-container {
+  padding: auto;
+}
+
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/appetizer-blur-breakfast-162850.jpg");
+
+    /* Set a specific height */
+    height: 350px;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .pink {
@@ -17,4 +53,28 @@ header {
 
 .large {
   font-size: 60px;
+}
+
+
+h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.big-headline {
+    font-size: 42px;
+    text-align: center;
+    clear: left;
+    font-weight: 200;
+    margin: 20px 20px;
+    letter-spacing: 1px;
+    line-height: 1.1;
+}
+
+.preamble {
+  font-size: 22px;
+  letter-spacing: .5px;
+  line-height: 1.3;
+  color: #bd2c95 ;
+  text-align: center;
 }
