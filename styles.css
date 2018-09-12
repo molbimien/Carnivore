@@ -166,16 +166,22 @@ body {
 
 .footer {
   padding: auto;
-  position: relative;
   margin: 0 auto 0 auto;
-  width: 100%;
+  /* width: 100%; */
   background-color: black;
+  color: white;
+  text-align: center;
 }
 
-.socialicon {
+.socialicon1 {
+  text-align: right;
+}
+.socialicon2 {
+  text-align: left;
+}
+
+.socialicon-wrapper {
   margin: 0 auto 0 auto;
-  padding: auto;
-  position: relative;
 }
 
 .pink {
@@ -197,6 +203,10 @@ p {
   letter-spacing: .5px;
   line-height: 1.4;
   font-size: 18px;
+}
+
+li {
+  list-style: none;
 }
 
 .preamble {
